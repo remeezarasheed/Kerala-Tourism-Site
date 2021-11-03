@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.card-img{
+    width: 100%;
+    height: 455px;
+}
+.card bg-dark text-white{
+    position: relative;
+}
+.card-img-overlay{
+    position: absolute;
+    top: 370px;
+    left: 20px;
+    width: 100vw;
+    color:black;
+    font-size: 40px;
+}
+.container{
+    /* border: solid yellow; */
+    margin: auto;
+    width: 50%;
+    height: 500vh;
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    margin-top: 15px;
+    justify-content: space-evenly;
+}
+.sec-1,.sec-2,.sec-3,.sec-4,.sec-5{
+    /* border: solid green; */
+    flex-direction: column;
+}
+.image{
+    background-image: url("../images/arthunkal.jpg");
+    background-position: cover;
+    width: 100%;
+    height: 390px;
+    background-repeat: no-repeat;
+    margin-top: 18px;
+    object-fit: fill;
+}
+.image1{
+    background-image: url("../images/alappuzha-beach.jpg");
+    background-position: cover;
+    width: 100%;
+    height: 390px;
+    background-repeat: no-repeat;
+    margin-top: 18px;
+}
+.image2{
+    background-image: url("../images/champakulam.jpg");
+    background-position: cover;
+    width: 100%;
+    height: 390px;
+    background-repeat: no-repeat;
+    margin-top: 18px;
+}
+.image3{
+    background-image: url("../images/punnamada.jpg");
+    background-position: cover;
+    width: 100%;
+    height: 390px;
+    background-repeat: no-repeat;
+    margin-top: 18px;
+}
+.image4{
+    background-image: url("../images/pandavan.jpg");
+    background-position: cover;
+    width: 100%;
+    height: 390px;
+    background-repeat: no-repeat;
+    margin-top: 18px;
+}
+.para{
+    margin-top: 20px;
+    font-size: larger;
+}
+.footer{
+    height: 70px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
