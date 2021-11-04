@@ -22,7 +22,7 @@
     font-size: 175%;
 }
 .kas-intro{
-    background-image: url(/images/wayanad.jpg);
+    background-image: url(/images/tvm.jpg);
     background-position: cover  ;
     height: 100vh;
     background-repeat: no-repeat;
@@ -38,7 +38,7 @@ h2{
     /* word-spacing: 2px; */
     text-align: center;
     margin-bottom: 30px;
-    color: white;
+     color:green;
     /* letter-spacing: 5px; */
 }
 .intro{
@@ -47,13 +47,13 @@ h2{
 }
 .long-text{
     text-align: center;
-    color: white;
+     color:green;
 }
 .exp-kas{
     margin: 100px auto;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
 }
 .top-attr{
-    border: solid green;
+    /* border: solid green; */
     height: 100vh;
 }

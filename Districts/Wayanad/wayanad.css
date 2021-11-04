@@ -38,7 +38,7 @@ h2{
     /* word-spacing: 2px; */
     text-align: center;
     margin-bottom: 30px;
-    color: white;
+    color:black;
     /* letter-spacing: 5px; */
 }
 .intro{
@@ -47,7 +47,7 @@ h2{
 }
 .long-text{
     text-align: center;
-    color: white;
+    color:black;
 }
 .exp-kas{
     margin: 100px auto;
