@@ -6,9 +6,18 @@ body{
     background-image: url("../../images/distbg.jpg");
     background-repeat: no-repeat;
     width: 100%;
+    height: 330vh;
     background-size: cover;
+    position: relative;
 }
-
+.heading{
+    color: white;
+    margin-top: 30px;
+    font-size: xx-large;
+    text-align: center;
+    position: relative;
+    top: 15px; 
+}
 .main-container{
     width: 100%; 
     height: 300vh;
@@ -16,33 +25,333 @@ body{
     margin: auto; 
     display:grid; 
     grid-template-columns: auto auto auto;
-    grid-gap:10px;
+    grid-gap:1px;
     justify-content: space-evenly; 
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
+    position: absolute;
+    top: 140px;
    
 }
 .dist1,.dist2,.dist3,.dist4,.dist5,.dist6,.dist7,.dist8,.dist9,.dist10,.dist11,.dist12,.dist13,.dist14{
     height: 300px;
     width: 25vw;
-    border: solid red;
+    box-shadow: 9px 10px 18px white;
+    /* border: solid red; */
 }
-.slider{
-    background  :url("../../images/secretariate.jpg");
-   animation: slide 20s infinite;
+H2{
+    /* position: absolute;
+    top: 250px;
+    text-align: center;
+    left: 170px;*/
+    text-align: center;
+     color: white;  
+    margin-top: 250px;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:link{
+    /* text-decoration: none; */
+    /* border-bottom: 1px solid red; */
+    color: white;
+}
+a:hover{
+    color: chocolate;
+}
+
+.slider1{
+    background-image  :url("../../images/secretariate.jpg");
+   animation: slide1 10s infinite;
     background-size: cover;
     animation-iteration-count: infinite;
 }
-@keyframes slide{
+@keyframes slide1{
     25%{
-        background: url("../../images/patmanaban.jpg");
+        background-image: url("../../images/patmanaban.jpg");
     }
     50%{
-        background: url("../../images/tvmsight.jpg");
+        background-image: url("../../images/tvmsight.jpg");
     }
     75%{
-        background: url(".../../images/patmanaban.jpg");
+        background-image: url("../../images/patmanaban.jpg");
     }
-    100%{
-        background: url("../../images/secretariate.jpg");
+    
+    75%{
+        background-image: url("../../images/tvmsight.jpg");
+    }
+}
+.slider2{
+    background-image  :url("../../images/kollamdis.jpg");
+   animation: slide2 10s infinite;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-iteration-count: infinite;
+}
+@keyframes slide2{
+    25%{
+        background-image: url("../../images/kollamdist.jpg");
+    }
+    50%{
+        background-image: url("../../images/kollamdistric.jpg");
+    }
+    75%{
+        background-image: url("../../images/kollamdist.jpg");
+    }
+    
+    75%{
+        background-image: url("../../images/kollamdistric.jpg");
+    }
+}
+
+.slider3{
+    background-image  :url("../../images/pathnthita.jpg");
+   animation: slide3 10s infinite;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-iteration-count: infinite;
+}
+@keyframes slide3{
+    25%{
+        background-image: url("../../images/pathanmdist.jpg");
+    }
+    50%{
+        background-image: url("../../images/pathnmdistr.jpg");
+    }
+    75%{
+        background-image: url("../../images/pathanmdist.jpg");
+    }
+    
+    75%{
+        background-image: url("../../images/pathnmdistr.jpg");
+    }
+}
+.slider4{
+    background-image  :url("../../images/kottayamdist.jpg");
+   animation: slide4 10s infinite;
+    background-size: cover;
+    animation-iteration-count: infinite;
+}
+@keyframes slide4{
+    25%{
+        background-image: url("../../images/kottdist.jpg");
+    }
+    50%{
+        background-image: url("../../images/kottdistr.jpg");
+    }
+    75%{
+        background-image: url("../../images/kottdist.jpg");
+    }
+    
+    75%{
+        background-image: url("../../images/kottdistr.jpg");
+    }
+}
+.slider5{
+    background-image  :url("../../images/idukkidistrct.jpg");
+   animation: slide5 10s infinite;
+    background-size: cover;
+    animation-iteration-count: infinite;
+}
+@keyframes slide5{
+    25%{
+        background-image: url("../../images/idukkidst.jpg");
+    }
+    50%{
+        background-image: url("../../images/idukkidstr.jpg");
+    }
+    75%{
+        background-image: url("../../images/idukkidst.jpg");
+    }
+    
+    75%{
+        background-image: url("../../images/idukkidstr.jpg");
+    }
+}
+.slider6{
+    background-image  :url("../../images/alappuzhadistt.jpg");
+   animation: slide6 10s infinite;
+    background-size: cover;
+    animation-iteration-count: infinite;
+}
+@keyframes slide6{
+    25%{
+        background-image: url("../../images/alappzhadisrct.jpg");
+    }
+    50%{
+        background-image: url("../../images/alappzhadst.jpg");
+    }
+    75%{
+        background-image: url("../../images/alappzhadisrct.jpg");
+    }
+    
+    75%{
+        background-image: url("../../images/alappzhadst.jpg");
+    }
+}
+.slider7{
+    background-image :url("../../images/ekmdistt.jpg");
+   animation: slide7 10s infinite;
+    background-size: cover;
+    animation-iteration-count: infinite;
+}
+@keyframes slide7{
+    25%{
+        background-image: url("../../images/ekmdisttt.jpg");
+    }
+    50%{
+        background-image: url("../../images/ekmdist.jpg");
+    }
+    75%{
+        background-image: url("../../images/ekmdisttt.jpg");
+    }
+    
+    75%{
+        background-image: url("../../images/ekmdist.jpg");
+    }
+}
+.slider8{
+    background-image  :url("../../images/trsrdst.jpg");
+   animation: slide8 10s infinite;
+    background-size: cover;
+    animation-iteration-count: infinite;
+}
+@keyframes slide8{
+    25%{
+        background-image: url("../../images/trsrdist.jpg");
+    }
+    50%{
+        background-image: url("../../images/trsurdist.jpg");
+    }
+    75%{
+        background-image: url("../../images/trsrdist.jpg");
+    }
+    
+    75%{
+        background-image: url("../../images/trsurdist.jpg");
+    }
+}
+.slider9{
+    background-image  :url("../../images/plkddistt.jpg");
+   animation: slide9 10s infinite;
+    background-size: cover;
+    animation-iteration-count: infinite;
+}
+@keyframes slide9{
+    25%{
+        background-image: url("../../images/plkddistttt.jpg");
+    }
+    50%{
+        background-image: url("../../images/plkdist.jpg");
+    }
+    75%{
+        background-image: url("../../images/plkddistttt.jpg");
+    }
+    
+    75%{
+        background-image: url("../../images/plkdist.jpg");
+    }
+}
+.slider10{
+    background-image  :url("../../images/kzkddist.jpg");
+   animation: slide10 10s infinite;
+    background-size: cover;
+    animation-iteration-count: infinite;
+}
+@keyframes slide10{
+    25%{
+        background-image: url("../../images/kzkddistt.jpg");
+    }
+    50%{
+        background-image: url("../../images/kzkddisttt.jpg");
+    }
+    75%{
+        background-image: url("../../images/kzkddistt.jpg");
+    }
+    
+    75%{
+        background-image: url("../../images/kzkddisttt.jpg");
+    }
+}
+.slider11{
+    background-image  :url("../../images/mlprmdistt.jpg");
+   animation: slide11 10s infinite;
+    background-size: cover;
+    animation-iteration-count: infinite;
+}
+@keyframes slide11{
+    25%{
+        background-image: url("../../images/mlprmdistty.jpg");
+    }
+    50%{
+        background-image: url("../../images/malappuramdist.jpg");
+    }
+    75%{
+        background-image: url("../../images/mlprmdistty.jpg");
+    }
+    
+    75%{
+        background-image: url("../../images/malappuramdist.jpg");
+    }
+}
+.slider12{
+    background-image  :url("../../images/wayanaddistt.jpg");
+   animation: slide12 10s infinite;
+    background-size: cover;
+    animation-iteration-count: infinite;
+}
+@keyframes slide12{
+    25%{
+        background-image: url("../../images/wayanddist.jpg");
+    }
+    50%{
+        background-image: url("../../images/wayanddistttt.jpg");
+    }
+    75%{
+        background-image: url("../../images/wayanddist.jpg");
+    }
+    
+    75%{
+        background-image: url("../../images/wayanddistttt.jpg");
+    }
+}
+.slider13{
+    background-image  :url("../../images/kanurdisttt.jpg");
+   animation: slide13 10s infinite;
+    background-size: cover;
+    animation-iteration-count: infinite;
+}
+@keyframes slide13{
+    25%{
+        background-image: url("../../images/kanurdistt.jpg");
+    }
+    50%{
+        background-image: url("../../images/kanordist.jpg");
+    }
+    75%{
+        background-image: url("../../images/kanurdistt.jpg");
+    }
+    
+    75%{
+        background-image: url("../../images/kanordist.jpg");
+    }
+}
+.slider14{
+    background-image  :url("../../images/kasarddisttt.jpg");
+   animation: slide14 10s infinite;
+    background-size: cover;
+    animation-iteration-count: infinite;
+}
+@keyframes slide14{
+    25%{
+        background-image: url("../../images/kasaroddidtt.jpg");
+    }
+    50%{
+        background-image: url("../../images/kasaroddist.jpg");
+    }
+    75%{
+        background-image: url("../../images/kasaroddidtt.jpg");
+    }
+    
+    75%{
+        background-image: url("../../images/kasaroddist.jpg");
     }
 }
