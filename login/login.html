@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="login.css">
+  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Login</title>
 </head>
@@ -41,23 +42,27 @@
            </div>
           </div><br>
           <P class="para">or use your credentials</P>
-          <div class="cont">
-            <div class="input-container">           
-              <input class="input-field" type="text" placeholder="E-Mail" name="usrnm">
-            </div>
-            <div class="input-container">           
-              <input class="input-field"  type="password" placeholder="Password" name="usrnm">
-            </div>
-            <div class="forget">     
-              <h4> <a href="#">forget your password?</a></h4>      
-            </div>
-            <div class="button">   
-              <button class="but" type="button">Login</button>        
-            </div>
-          </div>
+          <form action="../index.html" onsubmit=" return validateFn();" class="cont">
           
+              <div class="form-check">           
+                <input class="input-field" type="email" placeholder="E-Mail" name="usrnm" id="email" >
+                <small> </small>
+              </div>
+              <div class="form-check">           
+                <input class="input-field"  type="password" placeholder="Password" name="usrnm" id="pass" >
+                <small> </small>
+              </div>
+              <div class="forget">     
+                <h4> <a href="#">forget your password?</a></h4>      
+              </div>
+              <div class="button">   
+                <!-- <input type="​submit" ​class​="​fadeIn fourth​" ​style​="​cursor: pointer;​" ​value​="​Log In​"> -->
+                 <button  class = "but" type="submit">Login</button>        
+              </div>
+            
+          </form>
         </div>
     </div>
-  </div>
+    <script src="./login.js"></script>
 </body>
 </html>

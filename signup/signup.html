@@ -19,45 +19,65 @@
                 
               
             </button>
-            <div class="form-section">
 
-                <form action="">
-                    <h2 class="login">Sign Up</h2><br>
-                     <div class="input-container">
-                      
-                       <i class="fa fa-user icon"></i>&nbsp;&nbsp;
-                       <input class="input-field" type="text" placeholder="First Name" name="usrnm">&nbsp;&nbsp;
-                       <input class="input-field" type="text" placeholder="Last Name" name="usrnm">
-                     </div>
-                   
-                     <div class="input-container">
-                       <i class="fa fa-envelope icon"></i>&nbsp;&nbsp;
-                       <input class="input-field" type="text" placeholder="Email" name="email">
-                     </div>
-                   
-                     <div class="input-container">
-                        <i class="fa fa-phone icon"></i>&nbsp;&nbsp;
-                        <input class="input-field" type="text" placeholder="Mobile Number" name="mobile">
-                      </div>
 
-                     <div class="input-container">
-                       <i class="fa fa-key icon"></i>&nbsp;&nbsp;
-                       <input class="input-field" type="password" placeholder="Password" name="psw">
-                     </div>
+            <div class="scontainer">
+              <div class="header">
+                <h2>Sign Up</h2>
+              </div>
+              <form  onsubmit="return checkInputs();" id="form" class="form" action="../login/login.html" >
 
-                     <div class="input-container">
-                        <i class="fa fa-lock icon"></i>&nbsp;&nbsp;
-                        <input class="input-field" type="password" placeholder="Re-type Password" name="psw">
-                      </div>
+                <div class="form-control">
+                  <label for="username">Username</label>
+                  <input type="text" placeholder="Enter Name" id="username" />
+                  <i class="fa fa-check-circle"></i>
+                  <i class="fa fa-exclamation-circle"></i>
+                  <small>Error message</small>
+                </div>
 
-                      <div class="login-btn">
-                        <input class="btn" type="submit" value="Login">
-                      </div>
-                   
-                     
-                   </form>
+                <div class="form-control">
+                  <label for="username">Email</label>
+                  <input type="email" placeholder="a@florin-pop.com" id="email" />
+                  <i class="fa fa-check-circle"></i>
+                  <i class="fa fa-exclamation-circle"></i>
+                  <small>Error message</small>
+                </div>
 
-             </div>
+                <div class="form-control">
+                  <label for="Number">Phone</label>
+                  <input type="tel" placeholder="xxxxxxxxxx" id="number" />
+                  <i class="fa fa-check-circle"></i>
+                  <i class="fa fa-exclamation-circle"></i>
+                  <small>Error message</small>
+                </div>
+
+                <div class="form-control">
+                  <label for="username">Password</label>
+                  <input type="password" placeholder="Password" id="password" onkeyup="trigger();"/>
+                  <i class="fa fa-check-circle"></i>
+                  <i class="fa fa-exclamation-circle"></i>
+                  <small>Error message</small>
+                  <div class="indicator">
+                    <span class="weak"></span>
+                    <span class="medium"></span>
+                    <span class="strong"></span>
+                  </div>
+                  <div class="text">
+                  </div>
+                  
+                </div>
+
+                <div class="form-control">
+                  <label for="username">Password check</label>
+                  <input type="password" placeholder="Re-Type Password" id="password2"/>
+                  <i class="fa fa-check-circle"></i>
+                  <i class="fa fa-exclamation-circle"></i>
+                  <small>Error message</small>
+                </div>
+
+                <button>Submit</button>
+              </form>
+            </div>
         </div>
 
         <div class="right">
@@ -67,5 +87,7 @@
 
 
     </div>
+
+    <script src="./signup.js"></script>
 </body>
 </html>

@@ -22,7 +22,7 @@
     font-size: 175%;
 }
 .kas-intro{
-    background-image: url(/images/eranakulam.jpg);
+    background-image: url(../../images/eranakulam.jpg);
     background-position: cover  ;
     height: 100vh;
     background-repeat: no-repeat;
@@ -38,6 +38,7 @@ h2{
     /* word-spacing: 2px; */
     text-align: center;
     margin-bottom: 30px;
+    color: white;
     /* letter-spacing: 5px; */
 }
 .intro{
@@ -46,7 +47,7 @@ h2{
 }
 .long-text{
     text-align: center;
-    /* color: white; */
+     color: white; 
 }
 .exp-kas{
     margin: 100px auto;

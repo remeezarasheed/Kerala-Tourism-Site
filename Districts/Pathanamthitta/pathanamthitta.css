@@ -22,7 +22,7 @@
     font-size: 175%;
 }
 .kas-intro{
-    background-image: url(/images/pathanamthita.jpg);
+    background-image: url(../../images/pathanamthita.jpg);
     background-position: cover  ;
     height: 100vh;
     background-repeat: no-repeat;

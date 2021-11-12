@@ -54,7 +54,7 @@
     margin-top: 560px;
     MARGIN-LEFT: 257px;
 }
-.input-container {
+.form-check {
     /* display: flex; */
     margin-bottom: 25px;
     /* margin-left: 10%; */
@@ -87,7 +87,11 @@ a{
     color: grey;
 }
 .button{
-    margin-top: 40px;
+     margin-top: 40px; 
+    cursor: pointer;
+}
+.v{
+    cursor: pointer;
 }
 .but{
     background-color: cyan;
@@ -143,4 +147,95 @@ button:hover{
     /* border: 2px solid yellow; */
     position: absolute;
     top: 60px;
+}
+.form-check {
+	margin-bottom: 5px;
+	padding-bottom: 15px;
+	position: relative;
+	width: 90%;
+	
+}
+
+.form-check label {
+	display: inline-block;
+	margin-bottom: 1px;
+}
+
+.form-check input {
+	
+    margin-top: 30px;
+	margin-left: 30px;
+    color:white;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    background: transparent;
+    border: 0;
+    border-bottom: 3px solid #f0f0f0;
+     
+	/* border-radius: 4px; */
+	/* display: block; */
+	font-family: inherit;
+    
+	font-size: 15px;
+	padding: 1px;
+	width: 100%;
+    transition: all 0.8s;
+}
+.form-check ::-webkit-input-placeholder{
+    color: white;
+    opacity: 0.7;
+}
+
+.form-check input:focus {
+	outline: 0;
+	border-color: rgba(0, 81, 255, 0.534);
+}
+
+.form-check.success input {
+	border-color: #2ecc71;
+	
+}
+
+.form-check.error input {
+	border-color: #e74c3c;
+}
+/* ################################## Form Error mssg Design ################################################ */
+.form-check small {
+	color: #e74c3c;
+	position: absolute;
+	margin-left: 30px;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+	
+}
+
+.form-check.error small {
+	visibility: visible;
+	transition: all 0.9s;
+}
+/* ################################## Form Button Design ################################################ */
+
+
+/* ################################## Form Icon Design ################################################ */
+  .form-check i{
+	  position: absolute;
+	  transform: translateY(105%);
+	  font-size: 25px;
+	  color: #ffffff;
+	  transition: all 0.5s;
+  }
+  
+  .form-check.success i{
+	color: #2ecc71;
+	position: absolute;
+	  transform: translateY(105%);
+	  font-size: 25px;
+	
+}
+.form-check.error i{
+	color: #e74c3c;
+	position: absolute;
+	  transform: translateY(105%);
+	  font-size: 25px;
 }
