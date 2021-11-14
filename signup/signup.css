@@ -197,7 +197,7 @@
 	height: 5px;
 	width: 100%;
 	margin-top: 10px;
-	margin-left: 30px;
+	margin-left: 10px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -225,13 +225,13 @@
 	border-radius: 5px;
   }
 .indicator span.weak:before{
-	background-color: #ff4757;
+	background-color: darkred;
   }
 .indicator span.medium:before{
 	background-color: orange;
   }
 .indicator span.strong:before{
-	background-color: #23ad5c;
+	background-color: darkgreen;
   }
 
 .text{
@@ -243,11 +243,11 @@
 	margin-bottom: 2px;
   }
 .text.weak{
-	color: #ff4757;
+	color: darkred;
   }
 .text.medium{
 	color: orange;
   }
 .text.strong{
-	color: #23ad5c;
+	color: darkgreen;
   }
